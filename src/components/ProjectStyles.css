@@ -60,6 +60,7 @@
 .card-content:hover .card-img {
     transform: scale(1.05) rotate(3deg);
     opacity: 0.3;
+    box-shadow: 10px 10px 10px #FF3366,10px -10px 10px #FF3366, -10px 10px 10px #FF3366, -10px -10px 10px #FF3366;
 }
 
 @media only screen and (max-width: 720px){

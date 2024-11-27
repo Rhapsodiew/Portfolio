@@ -11,16 +11,7 @@ const Navbar = () => {
         </Link>
         <ul className="navbar-menu">
           <li>
-            <a href="#about">About</a>
-          </li>
-          <li>
-            <a href="#skills">Competence</a>
-          </li>
-          <li>
-            <a href="#project">Project</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
+            <a href="/resume">Resume</a>
           </li>
         </ul>
     </div>
