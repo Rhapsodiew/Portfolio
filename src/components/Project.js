@@ -53,7 +53,7 @@ const ProjectData = [
 ]
 
 function ProjectCard ({title, img, description,git}) {
-    console.log(git)
+    // console.log(git)
     return (
         <div>
             <a href={git}>

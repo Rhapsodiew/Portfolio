@@ -1,6 +1,11 @@
+.skill_content{
+    padding: 5px;
+}
+
 .bar {
     background-color: #2f2f2f;
     border-radius: 3px;
+    padding: 5px;
 }
 
 .skill {
@@ -10,9 +15,10 @@
     background-color: #FF3366;
     border-radius: 3px;
 }
-
-#progress {
-    animation: progressbaranim 1.5s linear;
+@media (prefers-reduced-motion: no-preference) {
+    .progress {
+        animation: progressbaranim 1.5s ease;
+    }
 }
 
 @keyframes progressbaranim {
