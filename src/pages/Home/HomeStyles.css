@@ -12,12 +12,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 60%;
+    width: 100%;
     color: white;   
     padding: 0 1rem;
     padding-bottom: 20px;
     margin-top: 20%;
-    margin-left: 20%;
     font-size: 60px;
 }
 
@@ -76,7 +75,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50%;
+    width: 40%;
     height: 100%;
     gap: 10px;
 }
@@ -215,6 +214,7 @@
 .hobby-content{
     display: flex;
     flex-direction: column;
+    overflow: auto;
 }
 .hobby-section{
     padding-top: 10px;
@@ -328,6 +328,7 @@
 .experience-content{
     display: flex;
     flex-direction: column;
+    overflow: auto;
 }
 .experience-section{
     padding-top: 10px;
@@ -374,6 +375,7 @@
 .etude-content{
     display: flex;
     flex-direction: column;
+    overflow: hidden;
 }
 .etude-section{
     padding-top: 10px;
@@ -463,20 +465,75 @@
     overflow-x: scroll;
 }
 
+@media screen and (max-width:1220px) {
+    .pres-content{
+        font-size: 55px;
+    }
+    .about-title{
+        font-size: 40px;
+    }
+    .competence-title{
+        font-size: 40px;
+    }
+    .project_title{
+        font-size: 40px;
+    }
+}
 
-@media only screen and (max-width: 720px){
-    /* .about_body{
-        margin-left: 20%;
-        font-size: 15px;
-        display: inline-block;
-        height: 300px;
-    } */
-    /* .about_imgzone {
-        display: flex;
-        justify-content: center;
-    } */
-    .contact_body {
-        margin-left: 10%;
-        margin-right: 10%;
+@media screen and (max-width: 1100px){
+    .pres-content{
+        font-size: 50px;
+    }
+    .about-title{
+        font-size: 38px;
+    }
+    .competence-title{
+        font-size: 38px;
+    }
+    .project_title{
+        font-size: 38px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .pres-content{
+        font-size: 45px;
+    }
+    .about-title{
+        font-size: 36px;
+    }
+    .competence-title{
+        font-size: 36px;
+    }
+    .project_title{
+        font-size: 36px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .pres-content{
+        font-size: 40px;
+    }
+    .about-title{
+        font-size: 34px;
+    }
+    .competence-title{
+        font-size: 34px;
+    }
+    .project_title{
+        font-size: 34px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .pres-content{
+        font-size: 35px;
+    }
+    .about-title{
+        font-size: 32px;
+    }
+    .competence-title{
+        font-size: 32px;
+    }
+    .project_title{
+        font-size: 32px;
     }
 }

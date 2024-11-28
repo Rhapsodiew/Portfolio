@@ -12,6 +12,14 @@ import { FaGolang } from "react-icons/fa6";
 import { SiJavascript } from "react-icons/si";
 
 const Home = () => {
+
+  window.onresize = function(event) {
+    const w = window.innerWidth;
+    const h = window.innerHeight;
+    console.log('xy',w,h)
+ 
+};
+
   function sleep(ms) {
     return new Promise((resolve) => setTimeout(resolve, ms));
 }
