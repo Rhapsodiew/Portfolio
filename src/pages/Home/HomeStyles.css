@@ -30,15 +30,15 @@
 .about-content{
     display: flex;
     flex-direction: row;
-    height: 800px;
 }
 .about-body {
-    background-color: #1f1f1f; 
-    display: flex;
-    align-items: start;
-    gap: 20px;
+    background-color: #8a3737; 
+    display: grid;
+    grid-template: repeat(14,minmax(0, 1fr))/40% 20% 40%;
     padding: 10px;
+    gap: 10px;
     width: 100%;
+    height: 800px;
     margin-bottom: 2%;
     border-radius: 25px;
     margin-left: 10%;
@@ -57,32 +57,37 @@
 
 /*? COLUMN */
 .col-1 {
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
     width: 33%;
     height: 100%;
-    gap: 10px;
+    gap: 10px; */
+    background-color: aliceblue;
 }
 .col-2{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
     height: 100%;
-    gap: 10px;
+    gap: 10px; */
+    background-color: aliceblue;
 }
 .col-3{
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
     width: 40%;
     height: 100%;
-    gap: 10px;
+    gap: 10px; */
+    background-color: aliceblue;
 }
 
 /** COL 1 */
 /*? CONTACT BOX */
 .contact {
+    grid-area:1/1/4/2;
+
     border: solid;
     border-width: 1px;
     border-color: #171717;
@@ -93,7 +98,6 @@
     padding: 20px;
     border-radius: 25px;
     width: 100%;
-    height: 30%;
     transition: 0.3s ease;
 }
 .contact:hover{
@@ -130,7 +134,6 @@
 .mail{
     font-size: 16px;
     font-weight: bold;
-    display: flex;
     /* text-shadow: 
     /* 1px 1px 0 #FF3366,
     -1px 1px 0 #FF3366,
@@ -140,15 +143,16 @@
 
 /*? FAV BOX */
 .fav {
+    grid-area:4/1/7/2;
+    display: flex;
     border: solid;
     border-width: 1px;
     border-color: #171717;
     background-color: #252525;
     width: 100%;
-    height: 20%;
     border-radius: 25px;
-    display: flex;
     padding: 20px;
+    padding-bottom: 10px;
     flex-direction: column;
     transition: 0.3s ease;
 }
@@ -164,8 +168,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
     padding: 10px;
     font-weight: 700;
+    height: 80%;
 }
 .fav-logo {
     width: 50px;
@@ -190,67 +196,21 @@
     }
 }
 
-/*? HOBBY BOX */
-.hobby{
-    border: solid;
-    border-width: 1px;
-    border-color: #171717;
-    background-color: #252525;
-    width: 100%;
-    height: 50%;
-    border-radius: 25px;
-    display: flex;
-    padding: 20px;
-    flex-direction: column;
-    transition: 0.3s ease;
-}
-.hobby:hover{
-    transform: scale(0.95);
-}
-.hobby-title{
-    display: flex;
-    justify-content: start;
-}
-.hobby-content{
-    display: flex;
-    flex-direction: column;
-    overflow: auto;
-}
-.hobby-section{
-    padding-top: 10px;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-}
-.hobby-section-title{
-    font-size: 20px;
-    font-weight: 500;
-}
-.hobby-section-detail{
-    width: 60%;
-}
-.hobby-section-detail-pri{
-    font-size: 18px;
-}
-.hobby-section-detail-sub{
-    margin-top: -3%;
-    opacity: 0.6;
-    font-size: 14px;
-}
-
 /** COL 2 */
 /*? PLACE HOLDER BOX */
 .placeholder {
-    height: 30%;
+    height: 0;
 }
 /*? IMG PROFILE BOX */
 .imgprofile {
+    grid-area:1/2/5/3;
+    justify-content: center;
     border: solid;
     border-width: 1px;
     border-color: #171717;
     background-color: #252525;
-    padding: 20px;
-    border-radius: 25px;
+    padding: 0px;
+    border-radius: 20px;
     transition: 0.3s ease;
 }
 .imgprofile:hover {
@@ -258,7 +218,8 @@
 }
 .img {
     border-radius: 20px;
-    width: 200px;
+    width: 100%;
+    height: 100%;
     transition: 0.5s ease;
 }
 .img:hover {
@@ -275,12 +236,12 @@
     color: white;
 }
 .textanime  {
+	grid-area:1/3/4/4;
     border: solid;
     border-width: 1px;
     border-color: #171717;
     background-color: #252525;
     width: 100%;
-    height: 25%;
     padding: 10px;
     border-radius: 25px;
     transition: 0.3s ease;
@@ -304,11 +265,11 @@
 
 /*? EXPERIENCE BOX */
 .experience{
+    grid-area:5/2/8/4;
     border: solid;
     border-width: 1px;
     border-color: #171717;
     background-color: #252525;
-    height: 40%;
     width: 100%;
     border-radius: 25px;
     padding: 20px;
@@ -323,12 +284,14 @@
     color: white;
 }
 .experience-subtitle{
+    margin-top: -1%;
     opacity: 0.6;
 }
 .experience-content{
     display: flex;
     flex-direction: column;
     overflow: auto;
+    padding: 10px;
 }
 .experience-section{
     padding-top: 10px;
@@ -344,25 +307,28 @@
     width: 60%;
 }
 .experience-info-name {
-    font-weight: bold;
+    font-size: 18px;
+    font-weight: 500;
 }
 .experience-info-detail{
     margin-top: -2%;
-    font-size: 15px;
+    font-size: 14px;
     opacity: 0.6;
 }
 
 /*? ETUDE BOX */
 .etude{
+    grid-area: 8/3/13/4;
     border: solid;
     border-width: 1px;
     border-color: #171717;
     background-color: #252525;
-    height: 40%;
     width: 100%;
     border-radius: 25px;
     padding: 20px;
     transition: 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 .etude:hover{
     transform: scale(0.95);
@@ -375,7 +341,8 @@
 .etude-content{
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    overflow: auto;
+    padding: 10px;
 }
 .etude-section{
     padding-top: 10px;
@@ -391,15 +358,62 @@
     width: 60%;
 }
 .etude-info-name {
-    font-weight: bold;
+    font-size: 18px;
 }
 .etude-info-detail{
-    margin-top: -2%;
-    font-size: 15px;
+    margin-top: -3%;
+    font-size: 14px;
     opacity: 0.6;
 }
 
-
+/*? HOBBY BOX */
+.hobby{
+    grid-area:7/1/13/2;
+    border: solid;
+    border-width: 1px;
+    border-color: #171717;
+    background-color: #252525;
+    width: 100%;
+    border-radius: 25px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    transition: 0.3s ease;
+}
+.hobby:hover{
+    transform: scale(0.95);
+}
+.hobby-title{
+    display: flex;
+    justify-content: start;
+}
+.hobby-content{
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 10px;
+}
+.hobby-section{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.hobby-section-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+.hobby-section-detail{
+    width: 60%;
+}
+.hobby-section-detail-pri{
+    font-size: 18px;
+}
+.hobby-section-detail-sub{
+    margin-top: -3%;
+    opacity: 0.6;
+    font-size: 14px;
+}
 
 /*! COMPETENCE SECTION */
 .competence {
@@ -465,6 +479,9 @@
     overflow-x: scroll;
 }
 
+
+
+
 @media screen and (max-width:1220px) {
     .pres-content{
         font-size: 55px;
@@ -492,6 +509,12 @@
     }
     .project_title{
         font-size: 38px;
+    }
+    .about-body{
+        flex-direction: column;
+    }
+    .imgprofile{
+        display: none;
     }
 }
 

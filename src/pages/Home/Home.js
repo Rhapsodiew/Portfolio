@@ -63,6 +63,9 @@ const Home = () => {
   addLoadEvent(autowritter)
 
 
+
+
+
   return (
     <div className='complete-page'>
       <div>
@@ -81,7 +84,7 @@ const Home = () => {
           <div className='about-content'>
             <div className='about-body'>
 
-            <div className='col-1'>
+            {/* <div className='col-1'> */}
               <div className='contact'>
                 <div  className='contact-title'>
                   <h4>Feel free to contact me</h4>
@@ -147,21 +150,20 @@ const Home = () => {
                     </div>
                   </div>
 
-
                 </div>
               </div>
-            </div>
+            {/* </div> */}
 
-            <div className='col-2'>
+            {/* <div className='col-2'> */}
               <div className='placeholder'>
 
               </div>
               <div className='imgprofile'>
                 <img src={hk} alt="" className='img'/>
               </div>
-            </div>
+            {/* </div> */}
 
-            <div className='col-3'>
+            {/* <div className='col-3'> */}
               <div className='textanime'>
                 <h4 className='textanime-content'><span id='typewriter'></span><span id='cursor'>|</span></h4> 
               </div>
@@ -183,7 +185,9 @@ const Home = () => {
 
               <div className='etude'>
                 <h4 className='etude-title'>Studies</h4>
+
                 <div className='etude-content'>
+
                   <div className='etude-section'>
                     <p className='etude-date'>2024 - Now</p>
                     <div className='etude-info'>
@@ -207,9 +211,10 @@ const Home = () => {
                       <p className='etude-info-detail'>@Crepys-en-valois</p>
                     </div>   
                   </div>
+
                 </div>
               </div>
-            </div>
+            {/* </div> */}
             </div>
           </div>
         </div>
