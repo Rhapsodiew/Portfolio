@@ -12,37 +12,38 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 100%;
+    /* background-color:#8a3737; */
     color: white;   
     padding: 0 1rem;
     padding-bottom: 20px;
-    margin-top: 20%;
+    height: 100vh;
     font-size: 60px;
 }
 
 
 /*! ABOUT SECTION */
 .about {
-    margin-top: 20%;
+    /* margin-top: 20%; */
     color: white;
     padding: 0 1rem ;
+    /* background-color:rgb(0, 136, 255); */
 }
 .about-content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
 .about-body {
     background-color: #8a3737; 
     display: grid;
-    grid-template: repeat(14,minmax(0, 1fr))/40% 20% 40%;
-    padding: 10px;
-    gap: 10px;
-    width: 100%;
-    height: 800px;
+    gap: 20px;
+    grid-template: repeat(14, minmax(0, 1fr))/40% 20% 40%;
+    width: 50em;
+    height: 100vh;
     margin-bottom: 2%;
     border-radius: 25px;
-    margin-left: 10%;
-    margin-right: 10%;
     margin-top: 2%;
     font-size: 20px;
 }
@@ -318,12 +319,11 @@
 
 /*? ETUDE BOX */
 .etude{
-    grid-area: 8/3/13/4;
+    grid-area: 8/3/14/4;
     border: solid;
     border-width: 1px;
     border-color: #171717;
     background-color: #252525;
-    width: 100%;
     border-radius: 25px;
     padding: 20px;
     transition: 0.3s ease;
@@ -368,7 +368,7 @@
 
 /*? HOBBY BOX */
 .hobby{
-    grid-area:7/1/13/2;
+    grid-area:7/1/14/2;
     border: solid;
     border-width: 1px;
     border-color: #171717;
