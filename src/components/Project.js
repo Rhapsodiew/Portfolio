@@ -50,6 +50,13 @@ const ProjectData = [
         description : "Application de géneration d'avis de recherche, format pdf, de personnage de l'univers de One Piece. (Golang)",
         git : "https://github.com/Rhapsodiew/PrimeGenerator"
     },
+    {
+        id: 7,
+        title : "VR Blueprint",
+        img : "",
+        description: "Creation d'un premier jeu en VR avec Unreal Engine 5",
+        git : "https://github.com/Rhapsodiew/VR-Blueprint"
+    }
 ]
 
 function ProjectCard ({title, img, description,git}) {
