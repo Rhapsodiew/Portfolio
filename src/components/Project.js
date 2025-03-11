@@ -1,11 +1,11 @@
-import "./ProjectStyles.css"
-import taskforge from "../images/project/taskforge.png"
-import franceinter from "../images/project/franceinter.png"
-import primegenerator from "../images/project/prime_generator.png"
-import rpg from "../images/project/rpg.png"
-import thermos from "../images/project/thermos2.png"
-import flix from "../images/project/flix5.png"
-
+import "./ProjectStyles.css";
+import taskforge from "../images/project/taskforge.png";
+import franceinter from "../images/project/franceinter.png";
+import primegenerator from "../images/project/prime_generator.png";
+import rpg from "../images/project/rpg.png";
+import thermos from "../images/project/thermos2.png";
+import flix from "../images/project/flix5.png";
+import intervengo from "../images/project/intervengo.png";
 
 const ProjectData = [
     {
@@ -56,8 +56,15 @@ const ProjectData = [
         img : "",
         description: "Creation d'un premier jeu en VR avec Unreal Engine 5",
         git : "https://github.com/Rhapsodiew/VR-Blueprint"
+    },
+    {
+        id : 8,
+        title : "IntervenGo",
+        img : intervengo,
+        description : "Application web permettant de Planifier des interventions, Enregistrer des interventions en cours, Gerer l'historique des interventions, Generer des rapports PDF",
+        git : "https://github.com/Rhapsodiew/IntervenGo"
     }
-]
+];
 
 function ProjectCard ({title, img, description,git}) {
     // console.log(git)
@@ -77,4 +84,4 @@ function ProjectCard ({title, img, description,git}) {
     )
 }
 
-export {ProjectData, ProjectCard}
+export {ProjectData, ProjectCard};

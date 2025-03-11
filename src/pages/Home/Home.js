@@ -83,138 +83,133 @@ const Home = () => {
           </div>
           <div className='about-content'>
             <div className='about-body'>
-
-            {/* <div className='col-1'> */}
-              <div className='contact'>
-                <div  className='contact-title'>
-                  <h4>Feel free to contact me</h4>
-                </div>     
-                <div className='contact-content'>
-                  <div className='logo-list'>
-                    <a href='https://fr.linkedin.com/'>
-                      <FaLinkedin className='contact-logo'/>
-                    </a>
-                    <a href='https://github.com/Rhapsodiew'>
-                      <FaGithub className='contact-logo' />
-                    </a>
+              <div className='col1'>
+                <div className='contact'>
+                  <div  className='contact-title'>
+                    <h4>Feel free to contact me</h4>
+                  </div>     
+                  <div className='contact-content'>
+                    <div className='logo-list'>
+                      <a href='https://fr.linkedin.com/'>
+                        <FaLinkedin className='contact-logo'/>
+                      </a>
+                      <a href='https://github.com/Rhapsodiew'>
+                        <FaGithub className='contact-logo' />
+                      </a>
+                    </div>
+                    <div className='mail'>
+                      <p>semavo_t@etna-alternance.net </p>
+                    </div>
                   </div>
-                  <div className='mail'>
-                    <p>semavo_t@etna-alternance.net </p>
+                </div>
+
+                <div className='fav'>
+                  <h4 className='fav-title'>Favorite Language</h4>
+                  <div className='fav-content'>
+                    <SiTypescript className='fav-logo'/>
+                    <FaPython className='fav-logo'/>
+                    <FaGolang className='fav-logo'/>
+                    <SiJavascript className='fav-logo'/>
+                  </div>
+                </div>
+
+                <div className='hobby'>
+                  <h4 className='hobby-title'>Hobby</h4>
+                  <div className='hobby-content'>
+
+                    <div className='hobby-section'>
+                      <p className='hobby-section-title'>Music</p>
+                      <div className='hobby-section-detail'>
+                        <p className='hobby-section-detail-pri'>Play instrument</p>
+                        <p className='hobby-section-detail-sub'>Violin / Piano</p>
+                      </div>
+                    </div>
+
+                    <div className='hobby-section'>
+                      <p className='hobby-section-title'>Game</p>
+                      <div className='hobby-section-detail'>
+                        <p className='hobby-section-detail-pri'>Play Competitively</p>
+                        <p className='hobby-section-detail-sub'>Discover new things</p>
+                      </div>
+                    </div>
+
+                    <div className='hobby-section'>
+                      <p className='hobby-section-title'>Language</p>
+                      <div className='hobby-section-detail'>
+                        <p className='hobby-section-detail-pri'>Learn Language</p>
+                        <p className='hobby-section-detail-sub'>Currently learning japanese</p>
+                      </div>
+                    </div>
+
+                    <div className='hobby-section'>
+                      <p className='hobby-section-title'>Other</p>
+                      <div className='hobby-section-detail'>
+                        <p className='hobby-section-detail-pri'>Enrich my insight</p>
+                        <p className='hobby-section-detail-sub'>Loves learning new things of any kinds</p>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
               </div>
 
-              <div className='fav'>
-                <h4 className='fav-title'>Favorite Language</h4>
-                <div className='fav-content'>
-                  <SiTypescript className='fav-logo'/>
-                  <FaPython className='fav-logo'/>
-                  <FaGolang className='fav-logo'/>
-                  <SiJavascript className='fav-logo'/>
-                </div>
-              </div>
-
-              <div className='hobby'>
-                <h4 className='hobby-title'>Hobby</h4>
-                <div className='hobby-content'>
-
-                  <div className='hobby-section'>
-                    <p className='hobby-section-title'>Music</p>
-                    <div className='hobby-section-detail'>
-                      <p className='hobby-section-detail-pri'>Play instrument</p>
-                      <p className='hobby-section-detail-sub'>Compose Music</p>
-                    </div>
-                  </div>
-
-                  <div className='hobby-section'>
-                    <p className='hobby-section-title'>Game</p>
-                    <div className='hobby-section-detail'>
-                      <p className='hobby-section-detail-pri'>Play Competitively</p>
-                      <p className='hobby-section-detail-sub'>Discover new things</p>
-                    </div>
-                  </div>
-
-                  <div className='hobby-section'>
-                    <p className='hobby-section-title'>Language</p>
-                    <div className='hobby-section-detail'>
-                      <p className='hobby-section-detail-pri'>Learn Language</p>
-                      <p className='hobby-section-detail-sub'>Currently learning japanese</p>
-                    </div>
-                  </div>
-
-                  <div className='hobby-section'>
-                    <p className='hobby-section-title'>Other</p>
-                    <div className='hobby-section-detail'>
-                      <p className='hobby-section-detail-pri'>Enrich my insight</p>
-                      <p className='hobby-section-detail-sub'>Loves learning new things of any kinds</p>
-                    </div>
-                  </div>
-
-                </div>
-              </div>
-            {/* </div> */}
-
-            {/* <div className='col-2'> */}
-              <div className='placeholder'>
-
-              </div>
-              <div className='imgprofile'>
-                <img src={hk} alt="" className='img'/>
-              </div>
-            {/* </div> */}
-
-            {/* <div className='col-3'> */}
+              <div className='col2'>
               <div className='textanime'>
-                <h4 className='textanime-content'><span id='typewriter'></span><span id='cursor'>|</span></h4> 
-              </div>
-
-              <div className='experience'>
-                <h4 className='experience-title'>Experience</h4>
-                <h6 className='experience-subtitle'>No real experience yet, but waiting for new one</h6>
-                <div className='experience-content'>
-                  <div className='experience-section'>
-                    <p className='experience-date'>2023 - 2024</p>
-                    <div className='experience-info'>
-                      <p className='experience-info-name'>Worked as a handler</p>
-                      <p className='experience-info-detail'>Interim</p>
-                    </div>   
-                  </div>
-
+                  <h4 className='textanime-content'><span id='typewriter'></span><span id='cursor'>|</span></h4> 
+                </div>
+                <div className='imgprofile'>
+                  <img src={hk} alt="" className='img'/>
                 </div>
               </div>
+           
+              <div className='col3'>
+                <div className='experience'>
+                  <h4 className='experience-title'>Experience</h4>
+                  <h6 className='experience-subtitle'>No real experience yet, but waiting for new one</h6>
+                  <div className='experience-content'>
+                    <div className='experience-section'>
+                      <p className='experience-date'>2023 - 2024</p>
+                      <div className='experience-info'>
+                        <p className='experience-info-name'>Worked as a handler</p>
+                        <p className='experience-info-detail'>Interim</p>
+                      </div>   
+                    </div>
 
-              <div className='etude'>
-                <h4 className='etude-title'>Studies</h4>
-
-                <div className='etude-content'>
-
-                  <div className='etude-section'>
-                    <p className='etude-date'>2024 - Now</p>
-                    <div className='etude-info'>
-                      <p className='etude-info-name'>Start of my Journey</p>
-                      <p className='etude-info-detail'>@Etna</p>
-                    </div>   
                   </div>
+                </div>
 
-                  <div className='etude-section'>
-                    <p className='etude-date'>2022 - 2023</p>
-                    <div className='etude-info'>
-                      <p className='etude-info-name'>Joined an Art School</p>
-                      <p className='etude-info-detail'>@New3dge</p>
-                    </div>   
+                <div className='etude'>
+                  <h4 className='etude-title'>Studies</h4>
+
+                  <div className='etude-content'>
+
+                    <div className='etude-section'>
+                      <p className='etude-date'>2024 - Now</p>
+                      <div className='etude-info'>
+                        <p className='etude-info-name'>Start of my Journey</p>
+                        <p className='etude-info-detail'>@Etna</p>
+                      </div>   
+                    </div>
+
+                    <div className='etude-section'>
+                      <p className='etude-date'>2022 - 2023</p>
+                      <div className='etude-info'>
+                        <p className='etude-info-name'>Joined an Art School</p>
+                        <p className='etude-info-detail'>@New3dge</p>
+                      </div>   
+                    </div>
+
+                    <div className='etude-section'>
+                      <p className='etude-date'>2021 - 2022</p>
+                      <div className='etude-info'>
+                        <p className='etude-info-name'>High School: The end</p>
+                        <p className='etude-info-detail'>@Crepys-en-valois</p>
+                      </div>   
+                    </div>
+
                   </div>
-
-                  <div className='etude-section'>
-                    <p className='etude-date'>2021 - 2022</p>
-                    <div className='etude-info'>
-                      <p className='etude-info-name'>High School: The end</p>
-                      <p className='etude-info-detail'>@Crepys-en-valois</p>
-                    </div>   
-                  </div>
-
                 </div>
               </div>
-            {/* </div> */}
             </div>
           </div>
         </div>
