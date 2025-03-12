@@ -1,9 +1,14 @@
 import { Link } from "react-router-dom";
 import React from 'react';
 import "./NavbarStyles.css";
-
+import cv from '../images/CV.pdf'
 
 const Navbar = () => {
+
+  const onResumeClick = () => {
+    window.open(cv);
+  }
+
   return (
     <div className="header">
         <Link to="/">
@@ -11,7 +16,7 @@ const Navbar = () => {
         </Link>
         <ul className="navbar-menu">
           <li>
-            <a href="/resume">Resume</a>
+            <a onClick={onResumeClick}>Resume</a>
           </li>
         </ul>
     </div>
