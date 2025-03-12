@@ -10,6 +10,12 @@ import { SiTypescript } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
 import { FaGolang } from "react-icons/fa6";
 import { SiJavascript } from "react-icons/si";
+import { FaFigma } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { SiNestjs } from "react-icons/si";
+import { RiNextjsFill } from "react-icons/ri";
+import { FaGitlab } from "react-icons/fa6";
+import { Tooltip } from 'react-tooltip';
 
 const Home = () => {
 
@@ -104,12 +110,57 @@ const Home = () => {
                 </div>
 
                 <div className='fav'>
-                  <h4 className='fav-title'>Favorite Language</h4>
+                  <h4 className='fav-title'>Favorite Tools</h4>
                   <div className='fav-content'>
-                    <SiTypescript className='fav-logo'/>
-                    <FaPython className='fav-logo'/>
-                    <FaGolang className='fav-logo'/>
-                    <SiJavascript className='fav-logo'/>
+                    <a data-tooltip-id='typescript-logo' data-tooltip-content="TypeScript">
+                      <SiTypescript className='fav-logo'/>
+                    </a>
+                    <Tooltip id='typescript-logo' className='tooltip'/>
+
+                    <a data-tooltip-id='javascript-logo' data-tooltip-content="JavaScript">
+                      <SiJavascript className='fav-logo'/>
+                    </a>
+                    <Tooltip id='javascript-logo' className='tooltip'/>
+
+                    <a data-tooltip-id='python-logo' data-tooltip-content="Python">
+                      <FaPython className='fav-logo'/>
+                    </a>
+                    <Tooltip id='python-logo' className='tooltip'/>
+
+                    <a data-tooltip-id='golang-logo' data-tooltip-content="Golang">
+                      <FaGolang className='fav-logo'/>
+                    </a>
+                    <Tooltip id='golang-logo' className='tooltip'/>
+
+                    <a data-tooltip-id='figma-logo' data-tooltip-content="Figma">
+                      <FaFigma className='fav-logo'/>
+                    </a>
+                    <Tooltip id='figma-logo' className='tooltip'/>
+
+                    <a data-tooltip-id='react-logo' data-tooltip-content="React">
+                      <FaReact className='fav-logo'/>
+                    </a>
+                    <Tooltip id='react-logo' className='tooltip'/>
+
+                    <a data-tooltip-id='nestjs-logo' data-tooltip-content="NestJs">
+                      <SiNestjs className='fav-logo'/>
+                    </a>
+                    <Tooltip id='nestjs-logo' className='tooltip'/>
+
+                    <a data-tooltip-id='nextjs-logo' data-tooltip-content="NextJs">
+                      <RiNextjsFill className='fav-logo'/>
+                    </a>
+                    <Tooltip id='nextjs-logo' className='tooltip'/>
+
+                    <a data-tooltip-id='github-logo' data-tooltip-content="GitHub">
+                      <FaGithub className='fav-logo'/>
+                    </a>
+                    <Tooltip id='github-logo' className='tooltip'/>
+
+                    <a data-tooltip-id='gitlab-logo' data-tooltip-content="GitLab">
+                      <FaGitlab className='fav-logo'/>
+                    </a>
+                    <Tooltip id='gitlab-logo' className='tooltip'/>
                   </div>
                 </div>
 
