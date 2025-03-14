@@ -16,7 +16,7 @@ const Navbar = () => {
         </Link>
         <ul className="navbar-menu">
           <li>
-            <a onClick={onResumeClick}>Resume</a>
+            <a href="" onClick={onResumeClick}>Resume</a>
           </li>
         </ul>
     </div>

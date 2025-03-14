@@ -4,9 +4,9 @@ import './App.css';
 import React from 'react';
 import "./index.css";
 import Home from './pages/Home/Home';
-import About from './pages/About/About';
-import Project from './pages/Project/Project';
-import Resume from './pages/Resume/Resume';
+// import About from './pages/About/About';
+// import Project from './pages/Project/Project';
+// import Resume from './pages/Resume/Resume';
 import { Route, Routes } from 'react-router-dom';
 
 
