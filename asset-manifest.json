@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "./static/css/main.f81ebc22.css",
-    "main.js": "./static/js/main.0a302f1b.js",
-    "static/js/453.1407b060.chunk.js": "./static/js/453.1407b060.chunk.js",
-    "static/media/prime_generator.png": "./static/media/prime_generator.7bb11142387530d2c7d3.png",
-    "static/media/hk.png": "./static/media/hk.4a694bf95e64e05d5918.png",
-    "static/media/flix5.png": "./static/media/flix5.5dea559dfd7a0730e2cd.png",
-    "static/media/taskforge.png": "./static/media/taskforge.4866939d5d8eb0c0e049.png",
-    "static/media/thermos2.png": "./static/media/thermos2.e335fcc40a623fdf5a70.png",
-    "static/media/intervengo.png": "./static/media/intervengo.de5488553f11b7cabebc.png",
-    "static/media/rpg.png": "./static/media/rpg.6ee3f80bbe636b855531.png",
-    "static/media/franceinter.png": "./static/media/franceinter.9085b6e45184c6b340b6.png",
-    "static/media/CV.pdf": "./static/media/CV.27302286d20b3794eb1a.pdf",
-    "index.html": "./index.html",
-    "main.f81ebc22.css.map": "./static/css/main.f81ebc22.css.map",
-    "main.0a302f1b.js.map": "./static/js/main.0a302f1b.js.map",
-    "453.1407b060.chunk.js.map": "./static/js/453.1407b060.chunk.js.map"
+    "main.css": "/static/css/main.f81ebc22.css",
+    "main.js": "/static/js/main.f00c1437.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/prime_generator.png": "/static/media/prime_generator.7bb11142387530d2c7d3.png",
+    "static/media/hk.png": "/static/media/hk.4a694bf95e64e05d5918.png",
+    "static/media/flix5.png": "/static/media/flix5.5dea559dfd7a0730e2cd.png",
+    "static/media/taskforge.png": "/static/media/taskforge.4866939d5d8eb0c0e049.png",
+    "static/media/thermos2.png": "/static/media/thermos2.e335fcc40a623fdf5a70.png",
+    "static/media/intervengo.png": "/static/media/intervengo.de5488553f11b7cabebc.png",
+    "static/media/rpg.png": "/static/media/rpg.6ee3f80bbe636b855531.png",
+    "static/media/franceinter.png": "/static/media/franceinter.9085b6e45184c6b340b6.png",
+    "static/media/CV.pdf": "/static/media/CV.27302286d20b3794eb1a.pdf",
+    "index.html": "/index.html",
+    "main.f81ebc22.css.map": "/static/css/main.f81ebc22.css.map",
+    "main.f00c1437.js.map": "/static/js/main.f00c1437.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f81ebc22.css",
-    "static/js/main.0a302f1b.js"
+    "static/js/main.f00c1437.js"
   ]
 }
