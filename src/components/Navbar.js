@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import React from 'react';
 import "./NavbarStyles.css";
-import cv from '../images/CV.pdf'
+import cv from '../images/CV1.pdf'
 
 const Navbar = () => {
 
