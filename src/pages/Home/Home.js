@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../../components/Navbar';
 import addLoadEvent from "../../components/func"
 import "./HomeStyles.css";
-import hk from "../../images/hk.png"
+import photoProfile from "../../images/photoProfile.jpg"
 import Skillbar from "../../components/Skillbar"
 import { ProjectCard, ProjectData } from '../../components/Project';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
@@ -209,7 +209,7 @@ const Home = () => {
                   <h4 className='textanime-content'><span id='typewriter'></span><span id='cursor'>|</span></h4> 
                 </div>
                 <div className='imgprofile'>
-                  <img src={hk} alt="" className='img'/>
+                  <img src={photoProfile} alt="" className='img'/>
                 </div>
               </div>
            
