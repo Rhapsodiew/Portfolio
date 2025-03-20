@@ -14,7 +14,7 @@ import { FaFigma } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { SiNestjs } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
-import { FaGitlab } from "react-icons/fa6";
+import { FaGitAlt } from "react-icons/fa6";
 import { Tooltip } from 'react-tooltip';
 
 const Home = () => {
@@ -84,8 +84,10 @@ const Home = () => {
         </div>
 
         <div className='about' id='about'>
-          <div className='about-title'>
-            <h2>ABOUT ME</h2>
+          <div className='about-title_section'>
+            <div className='about-title'>
+              <h2>ABOUT ME</h2>
+            </div>
           </div>
           <div className='about-content'>
             <div className='about-body'>
@@ -152,15 +154,10 @@ const Home = () => {
                     </a>
                     <Tooltip id='nextjs-logo' className='tooltip'/>
 
-                    <a data-tooltip-id='github-logo' data-tooltip-content="GitHub">
-                      <FaGithub className='fav-logo'/>
+                    <a data-tooltip-id='git-logo' data-tooltip-content="Git">
+                      <FaGitAlt className='fav-logo'/>
                     </a>
-                    <Tooltip id='github-logo' className='tooltip'/>
-
-                    <a data-tooltip-id='gitlab-logo' data-tooltip-content="GitLab">
-                      <FaGitlab className='fav-logo'/>
-                    </a>
-                    <Tooltip id='gitlab-logo' className='tooltip'/>
+                    <Tooltip id='git-logo' className='tooltip'/>
                   </div>
                 </div>
 
@@ -265,37 +262,52 @@ const Home = () => {
           </div>
         </div>
 
-
-        <div className='competence' id='skills'>
-          <div className='competence-title'>
-            <h2>COMPENTENCE</h2>
-          </div>
-          <div className='competence-content'>
-            <div  className='competence-section'>
-              <Skillbar title={"React"} level={"50%"}/>
-              <Skillbar title={"Python"} level={"60%"}/>
-              <Skillbar title={"Golang"} level={"55%"}/>
-              <Skillbar title={"TS/JS"} level={"50%"}/>
-              <Skillbar title={"SQL"} level={"55%"}/>
-              <Skillbar title={"Html"} level={"40%"}/>
-              <Skillbar title={"Css"} level={"45%"}/>
-            </div>
-          </div>
-        </div>
-
+        <br />
+        <br />
 
         <div className='project' id='project'>
-          <div className='project_title'>
-            <h2>PROJECT</h2>
+          <div className='project-title_section'>
+            <div className='project-title'>
+              <h2>PROJECT</h2>
+            </div>
           </div>
           <div className='project_body'>
-              {ProjectData.map ((proj) => {
-                return (
-                  <div key={proj.id}>
-                    <ProjectCard title={proj.title} img={proj.img} description={proj.description} git={proj.git}/>
-                  </div>
-                )
-              })}
+            <div className='project-card'>
+              <ProjectCard
+              title={ProjectData[4].title} 
+              img={ProjectData[4].img} 
+              git={ProjectData[4].git} 
+              description={"test description project"} 
+              techno={ProjectData[4].techno} 
+              />
+            </div>
+            <div className='project-card'>
+              <ProjectCard
+              title={ProjectData[1].title} 
+              img={ProjectData[1].img} 
+              git={ProjectData[1].git} 
+              description={"test description project"} 
+              techno={ProjectData[1].techno} 
+              />
+            </div>
+            <div className='project-card'>
+              <ProjectCard
+              title={ProjectData[5].title} 
+              img={ProjectData[5].img} 
+              git={ProjectData[5].git} 
+              description={"test description project"} 
+              techno={ProjectData[5].techno} 
+              />
+            </div>
+            <div className='project-card'>
+              <ProjectCard
+              title={ProjectData[3].title} 
+              img={ProjectData[3].img} 
+              git={ProjectData[3].git} 
+              description={"test description project"} 
+              techno={ProjectData[3].techno} 
+              />
+            </div>
           </div>
         </div>
       </div>

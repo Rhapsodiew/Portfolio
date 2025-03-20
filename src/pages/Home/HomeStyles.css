@@ -4,7 +4,7 @@
 
 /*! PRESENTATION SECTION*/
 .pres{
-    padding: 15px;
+    /* padding: 15px; */
     display: flex;
     flex-direction: row;
 }
@@ -28,7 +28,10 @@
     /* margin-top: 20%; */
     color: white;
     padding: 0 1rem ;
-    /* background-color:rgb(0, 136, 255); */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 .about-content{
     display: flex;
@@ -46,11 +49,12 @@
     margin-top: 2%;
     font-size: 20px;
 }
+.about-title_section {
+    width: 90%;
+}
 .about-title {
-    display: flex;
-    margin-left: 10%;
+    
     padding: 10px;
-    justify-content: start;
     font-size: 42px;
 }
 
@@ -405,7 +409,6 @@
 
 /*! COMPETENCE SECTION */
 .competence {
-    margin-top: 20%;
     color: white;
     padding: 0 1rem;
     padding-bottom: 20px;
@@ -420,6 +423,7 @@
 .competence-content{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .competence-section {
     border: solid;
@@ -427,14 +431,12 @@
     border-color: #171717;
     background-color: #252525;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     gap: 20px;
     padding: 10px;
-    width: 100%;
+    width: 80%;
     border-radius: 25px;
-    margin-left: 20%;
-    margin-right: 20%;
+
     margin-top: 2%;
     margin-bottom: 2%;
     font-weight: bold;
@@ -443,28 +445,31 @@
 /*! PROJECT SECTION */
 
 .project {
-    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     color: white;
-    
     padding: 0 1rem;
     padding-bottom: 20px;
 }
-
-.project_title {
-    margin-left: 10%;
+.project-title_section {
+    width: 90%;
+}
+.project-title {
     padding: 10px;
     font-size: 42px;
-    display: flex;
-    justify-content: start;
 }
 
 .project_body {
-    background-color: #252525;
-    display: flex;
-    align-items: center;
-    padding: 10px;
-    border-radius: 25px;
-    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.project-card {
+    border: 1px solid #3b3b3b;
+    border-radius: 15px;
+    transition: 0.3s ease;
 }
 
 
@@ -542,5 +547,20 @@
     }
     .project_title{
         font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .pres-content {
+        font-size: 20px;
+    }
+    .about-title {
+        font-size: 20px;
+    }
+    .competence-title {
+        font-size: 20px;
+    }
+    .project_title {
+        font-size: 20px;
     }
 }

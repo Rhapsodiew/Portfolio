@@ -1,31 +1,39 @@
 .header {
     display: flex;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    right: 0;
+    position: absolute;
+    flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #1c1c1c;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
 }
 
-.navbar-menu{
+
+.navbar-menu {
     display: flex;
+    list-style: none;
 }
 
-.navbar-menu li{
+.navbar-menu li {
     padding: 0 1rem;
 }
 
-.navbar-menu li a{
+.navbar-menu li a {
     font-size: 1.2rem;
     font-weight: 500;
-}
-
-.h1, a {
     color: white;
     text-decoration: none;
     cursor: pointer;
+}
+
+.header h1, a {
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover {
+    opacity: 0.8;
 }

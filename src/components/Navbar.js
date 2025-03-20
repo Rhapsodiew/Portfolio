@@ -1,26 +1,23 @@
 import { Link } from "react-router-dom";
-import React from 'react';
+import React from "react";
 import "./NavbarStyles.css";
-import cv from '../images/CV.pdf'
+import cv from "../images/CV.pdf";
 
 const Navbar = () => {
-
-  const onResumeClick = () => {
-    window.open(cv);
-  }
-
   return (
     <div className="header">
-        <Link to="/">
-            <h1>portfolio</h1>
-        </Link>
-        <ul className="navbar-menu">
-          <li>
-            <a href="/Portfolio" onClick={onResumeClick}>Resume</a>
-          </li>
-        </ul>
+      <Link to="/">
+        <h1>Portfolio</h1>
+      </Link>
+      <ul className="navbar-menu">
+        <li>
+          <a href={cv} target="_blank" rel="noopener noreferrer">
+            Resume
+          </a>
+        </li>
+      </ul>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
