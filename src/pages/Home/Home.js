@@ -274,11 +274,11 @@ const Home = () => {
           <div className='project_body'>
             <div className='project-card'>
               <ProjectCard
-              title={ProjectData[4].title} 
-              img={ProjectData[4].img} 
-              git={ProjectData[4].git} 
+              title={ProjectData[0].title} 
+              img={ProjectData[0].img} 
+              git={ProjectData[0].git} 
               description={"test description project"} 
-              techno={ProjectData[4].techno} 
+              techno={ProjectData[0].techno} 
               />
             </div>
             <div className='project-card'>
@@ -292,20 +292,20 @@ const Home = () => {
             </div>
             <div className='project-card'>
               <ProjectCard
-              title={ProjectData[5].title} 
-              img={ProjectData[5].img} 
-              git={ProjectData[5].git} 
+              title={ProjectData[7].title} 
+              img={ProjectData[7].img} 
+              git={ProjectData[7].git} 
               description={"test description project"} 
-              techno={ProjectData[5].techno} 
+              techno={ProjectData[7].techno} 
               />
             </div>
             <div className='project-card'>
               <ProjectCard
-              title={ProjectData[3].title} 
-              img={ProjectData[3].img} 
-              git={ProjectData[3].git} 
+              title={ProjectData[8].title} 
+              img={ProjectData[8].img} 
+              git={ProjectData[8].git} 
               description={"test description project"} 
-              techno={ProjectData[3].techno} 
+              techno={ProjectData[8].techno} 
               />
             </div>
           </div>
