@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.bc1c30da.css",
-    "main.js": "/Portfolio/static/js/main.a3aafe2f.js",
+    "main.js": "/Portfolio/static/js/main.8582d5c9.js",
     "static/js/453.1407b060.chunk.js": "/Portfolio/static/js/453.1407b060.chunk.js",
     "static/media/photoProfile.jpg": "/Portfolio/static/media/photoProfile.e2ad43661db2d4f78b2e.jpg",
     "static/media/prime_generator.png": "/Portfolio/static/media/prime_generator.7bb11142387530d2c7d3.png",
@@ -9,16 +9,18 @@
     "static/media/taskforge.png": "/Portfolio/static/media/taskforge.4866939d5d8eb0c0e049.png",
     "static/media/thermos2.png": "/Portfolio/static/media/thermos2.e335fcc40a623fdf5a70.png",
     "static/media/intervengo.png": "/Portfolio/static/media/intervengo.de5488553f11b7cabebc.png",
+    "static/media/clicker_game.png": "/Portfolio/static/media/clicker_game.4fcaa9ab291ff8173a1a.png",
     "static/media/rpg.png": "/Portfolio/static/media/rpg.6ee3f80bbe636b855531.png",
     "static/media/franceinter.png": "/Portfolio/static/media/franceinter.9085b6e45184c6b340b6.png",
+    "static/media/discordbot_rodolphe.png": "/Portfolio/static/media/discordbot_rodolphe.50d47953d00b9dba5151.png",
     "static/media/CV.pdf": "/Portfolio/static/media/CV.21e2537bc312e2ff07b8.pdf",
     "index.html": "/Portfolio/index.html",
     "main.bc1c30da.css.map": "/Portfolio/static/css/main.bc1c30da.css.map",
-    "main.a3aafe2f.js.map": "/Portfolio/static/js/main.a3aafe2f.js.map",
+    "main.8582d5c9.js.map": "/Portfolio/static/js/main.8582d5c9.js.map",
     "453.1407b060.chunk.js.map": "/Portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bc1c30da.css",
-    "static/js/main.a3aafe2f.js"
+    "static/js/main.8582d5c9.js"
   ]
 }
