@@ -6,6 +6,8 @@ import rpg from "../images/project/rpg.png";
 import thermos from "../images/project/thermos2.png";
 import flix from "../images/project/flix5.png";
 import intervengo from "../images/project/intervengo.png";
+import clicker_game from "../images/project/clicker_game.png";
+import discordbot_rodolphe from "../images/project/discordbot_rodolphe.png";
 
 const Techno = {
     React: "React",
@@ -94,16 +96,21 @@ const ProjectData = [
     {
       id: 9,
       title: "ClickerGame",
-      img: "",
+      img: clicker_game,
       description: "Jeu Clicker qui consiste a gagner des points en cliquant et acheter des améliorations avec des points.",
       git: "https://github.com/Rhapsodiew/ClickerGame",
       techno: [Techno.NestJs, Techno.React, Techno.Postgre]
+    },
+    {
+      id: 10,
+      title: "DiscordBot Rodolphe",
+      img: discordbot_rodolphe,
+      description: "Bot discord qui permet de se connecter a l'intra de l'Etna et recupérer les informations de l'utilisateur connecté.",
+      git: "https://github.com/Rhapsodiew/DiscordBot_Rodolphe",
+      techno: [Techno.JS]
     }
     
 ];
-
-const openGitRepo = async (git) => {
-}
 
 const ProjectCard = ({ title, img, description, git, techno }) => {
     return (
