@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { ProjectData, ProjectCard } from '../../components/Project'; // Import des données et des composants
 import './ProjectPageStyles.css'; // Import des styles
 import Navbar from '../../components/Navbar';
 
 const Project = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return (
     <div className="projectpage">
       <Navbar />

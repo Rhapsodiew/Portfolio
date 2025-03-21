@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from '../../components/Navbar';
 import addLoadEvent from "../../components/func"
 import "./HomeStyles.css";
@@ -68,12 +68,11 @@ const Home = () => {
     }
     write();
   }
-  addLoadEvent(autowritter)
-
-
-
-
-
+  useEffect(() => {
+    // addLoadEvent(autowritter)
+    autowritter();
+  }, []);
+  
   return (
     <div className='complete-page'>
       <div>
@@ -101,10 +100,10 @@ const Home = () => {
                   </div>     
                   <div className='contact-content'>
                     <div className='logo-list'>
-                      <a href='https://fr.linkedin.com/'>
+                      <a href='https://fr.linkedin.com/' target='_blank' rel="noopener noreferrer">
                         <FaLinkedin className='contact-logo'/>
                       </a>
-                      <a href='https://github.com/Rhapsodiew'>
+                      <a href='https://github.com/Rhapsodiew?tab=repositories' target='_blank' rel="noopener noreferrer">
                         <FaGithub className='contact-logo' />
                       </a>
                     </div>
@@ -312,9 +311,14 @@ const Home = () => {
               />
             </div>
           </div>
-          <div>
+          <div className='project-buttonpage'>
             <Link to="project">View More</Link>
           </div>
+        </div>
+        <div className='footer'></div>
+        <div className='footer-info'>
+          <p>2025 Semavoine Theo | Created in France</p>
+          <p>Look at some of my projects on <a href='https://github.com/Rhapsodiew?tab=repositories' target='_blank' rel="noopener noreferrer" className='footer-link'>Github</a></p>
         </div>
       </div>
     </div>
