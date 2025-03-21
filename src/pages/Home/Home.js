@@ -16,6 +16,8 @@ import { SiNestjs } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa6";
 import { Tooltip } from 'react-tooltip';
+import { IoIosArrowDown } from "react-icons/io";
+import { Link } from 'react-router-dom';
 
 const Home = () => {
 
@@ -79,7 +81,8 @@ const Home = () => {
           <Navbar />
           <div className='pres-content'>
             <h2>HELLO</h2>
-            <p>I'm Theo, a student .</p>
+            <p>I'm <span className='pres-name'>Theo</span>, a student .</p>
+            <IoIosArrowDown className='pres-arrow'/>
           </div>
         </div>
 
@@ -277,7 +280,7 @@ const Home = () => {
               title={ProjectData[0].title} 
               img={ProjectData[0].img} 
               git={ProjectData[0].git} 
-              description={"test description project"} 
+              description={ProjectData[0].description} 
               techno={ProjectData[0].techno} 
               />
             </div>
@@ -286,7 +289,7 @@ const Home = () => {
               title={ProjectData[1].title} 
               img={ProjectData[1].img} 
               git={ProjectData[1].git} 
-              description={"test description project"} 
+              description={ProjectData[1].description} 
               techno={ProjectData[1].techno} 
               />
             </div>
@@ -295,7 +298,7 @@ const Home = () => {
               title={ProjectData[7].title} 
               img={ProjectData[7].img} 
               git={ProjectData[7].git} 
-              description={"test description project"} 
+              description={ProjectData[7].description} 
               techno={ProjectData[7].techno} 
               />
             </div>
@@ -304,10 +307,13 @@ const Home = () => {
               title={ProjectData[8].title} 
               img={ProjectData[8].img} 
               git={ProjectData[8].git} 
-              description={"test description project"} 
+              description={ProjectData[8].description} 
               techno={ProjectData[8].techno} 
               />
             </div>
+          </div>
+          <div>
+            <Link to="project">View More</Link>
           </div>
         </div>
       </div>

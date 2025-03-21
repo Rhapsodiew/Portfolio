@@ -33,7 +33,8 @@ const ProjectData = [
         id: 1,
         title: "FranceInter",
         img: franceinter,
-        description: "Programme qui verifie si le nombre de personne dans la salle est respecté, un message audio est diffusé en francais et la langue traduit. (Microsoft Azure, Python fastapi, Nextjs)",
+        description: "Program that checks if the room's occupancy limit is respected and plays an audio message in French along with a translated version.",
+        // "Programme qui verifie si le nombre de personne dans la salle est respecté, un message audio est diffusé en francais et la langue traduit."
         git: "https://github.com/Rhapsodiew/FranceInter",
         techno: [Techno.Python, Techno.FastApi, Techno.NextJs]
     },
@@ -41,7 +42,7 @@ const ProjectData = [
         id: 2,
         title: "TaskForge",
         img: taskforge,
-        description: "Application de gestion de tâches pour une équipe, permettant la création de tâches, l'affectation à des utilisateurs, la définition de priorités et le suivi de leur état. L'application comprend un tableau de bord pour visualiser l'avancement global. (API REST, NestJs, NextJs",
+        description: "Task manager with progress tracking, built with NestJs, NextJs, and MariaDB.",
         git: "https://github.com/Rhapsodiew/TaskForge",
         techno: [Techno.NestJs, Techno.NextJs, Techno.Mariadb]
     },
@@ -49,7 +50,7 @@ const ProjectData = [
         id: 3,
         title: "EtnaFlix",
         img: flix,
-        description: "Application mobile permettant aux utilisateurs d'explorer un catalogue de films, visualiser les details d'un films, rechercher un film via une barre de recherche, via l'API TMDB. (React Native)",
+        description: "React Native mobile app to explore a movie catalog via the TMDB API.",
         git: "https://github.com/Rhapsodiew/EtnaFlix",
         techno: [Techno.React]
     },
@@ -57,7 +58,7 @@ const ProjectData = [
         id: 4,
         title: "ThermOS",
         img: thermos,
-        description: "Project découverte d'Arduino. Récuperation des données de température et d'humidité d'un capteur pour les afficher sur un ecran LCD avec diverse animation visuelle. (Arduino)",
+        description: "Arduino project displaying temperature and humidity on an LCD screen with visual animations.",
         git: "https://github.com/Rhapsodiew/ThermOs",
         techno: [Techno.Arduino]
     },
@@ -65,7 +66,7 @@ const ProjectData = [
         id: 5,
         title: "RPG",
         img: rpg,
-        description: "Première création d'un jeu dans l'univers de Zelda avec divers mod pour améliorer l'expérience de jeu. (Golang)",
+        description: "Zelda-inspired game developed in Golang, featuring various mods for an enhanced experience.",
         git: "https://github.com/Rhapsodiew/My_RPG",
         techno: [Techno.Go]
     },
@@ -73,7 +74,7 @@ const ProjectData = [
         id: 6,
         title: "Prime Generator",
         img: primegenerator,
-        description: "Application de géneration d'avis de recherche, format pdf, de personnage de l'univers de One Piece. (Golang)",
+        description: "One Piece-style bounty poster generator in PDF, built with Golang.",
         git: "https://github.com/Rhapsodiew/PrimeGenerator",
         techno: [Techno.Go]
     },
@@ -81,7 +82,7 @@ const ProjectData = [
         id: 7,
         title: "VR Blueprint",
         img: "",
-        description: "Creation d'un premier jeu en VR avec Unreal Engine 5",
+        description: "First VR game created using Unreal Engine 5.",
         git: "https://github.com/Rhapsodiew/VR-Blueprint",
         techno: [Techno.Unreal]
     },
@@ -89,7 +90,7 @@ const ProjectData = [
         id: 8,
         title: "IntervenGo",
         img: intervengo,
-        description: "Application web permettant de Planifier des interventions, Enregistrer des interventions en cours, Gerer l'historique des interventions, Generer des rapports PDF",
+        description: "Web app built with NestJs, React, and PostgreSQL for managing interventions and generating PDF reports.",
         git: "https://github.com/Rhapsodiew/IntervenGo",
         techno: [Techno.Postgre, Techno.NestJs, Techno.React]
     },
@@ -97,7 +98,7 @@ const ProjectData = [
       id: 9,
       title: "ClickerGame",
       img: clicker_game,
-      description: "Jeu Clicker qui consiste a gagner des points en cliquant et acheter des améliorations avec des points.",
+      description: "Clicker game in NestJs, React, and PostgreSQL where you earn points by clicking and buy upgrades.",
       git: "https://github.com/Rhapsodiew/ClickerGame",
       techno: [Techno.NestJs, Techno.React, Techno.Postgre]
     },
@@ -105,7 +106,7 @@ const ProjectData = [
       id: 10,
       title: "DiscordBot Rodolphe",
       img: discordbot_rodolphe,
-      description: "Bot discord qui permet de se connecter a l'intra de l'Etna et recupérer les informations de l'utilisateur connecté.",
+      description: "JavaScript Discord bot retrieving user info from the ETNA Intranet.",
       git: "https://github.com/Rhapsodiew/DiscordBot_Rodolphe",
       techno: [Techno.JS]
     }
