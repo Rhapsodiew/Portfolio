@@ -76,3 +76,35 @@
     overflow: hidden;
     transition: height 0.3s ease-in-out;
 }
+
+@media screen and (max-width: 760px) {
+    .card {
+        width: 500px;
+        height: 400;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .card {
+        width: 450px;
+        height: 360px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .card {
+        width: 380px;
+        height: 304px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .card {
+        width: 300px;
+        height: 240px;
+    }
+    .card-description {
+        font-size: 12px;
+    }
+}
+
