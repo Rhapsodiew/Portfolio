@@ -8,6 +8,8 @@ import flix from "../images/project/flix5.png";
 import intervengo from "../images/project/intervengo.png";
 import clicker_game from "../images/project/clicker_game.png";
 import discordbot_rodolphe from "../images/project/discordbot_rodolphe.png";
+import snake from "../images/project/snake.png"
+import tetris from "../images/project/tetris.png"
 
 const Techno = {
     React: "React",
@@ -109,8 +111,23 @@ const ProjectData = [
       description: "JavaScript Discord bot retrieving user info from the ETNA Intranet.",
       git: "https://github.com/Rhapsodiew/DiscordBot_Rodolphe",
       techno: [Techno.JS]
+    },
+    {
+      id: 11,
+      title: "Snake",
+      img: snake,
+      description: "A basic Python implementation of the classic Snake game",
+      git: "https://github.com/Rhapsodiew/Snake",
+      techno: [Techno.Python]
+    },
+    {
+      id: 12,
+      title: "Tetris",
+      img: tetris,
+      description: "A simple Python version of the classic Tetris game where the player arranges falling blocks to complete lines and score points.",
+      git: "https://github.com/Rhapsodiew/Tetris",
+      techno: [Techno.Python]
     }
-    
 ];
 
 const ProjectCard = ({ title, img, description, git, techno }) => {
