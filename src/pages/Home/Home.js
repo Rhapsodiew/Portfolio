@@ -103,7 +103,7 @@ const Home = () => {
                   </div>     
                   <div className='contact-content'>
                     <div className='logo-list'>
-                      <a href='https://fr.linkedin.com/' target='_blank' rel="noopener noreferrer">
+                      <a href='https://www.linkedin.com/in/theo-semavoine/' target='_blank' rel="noopener noreferrer">
                         <FaLinkedin className='contact-logo'/>
                       </a>
                       <a href='https://github.com/Rhapsodiew?tab=repositories' target='_blank' rel="noopener noreferrer">
