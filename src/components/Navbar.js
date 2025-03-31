@@ -12,7 +12,7 @@ const Navbar = () => {
       <ul className="navbar-menu">
         <li>
           <a href={cv} target="_blank" rel="noopener noreferrer">
-            Resume
+            CV
           </a>
         </li>
       </ul>
