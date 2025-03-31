@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { ProjectData, ProjectCard } from '../../components/Project'; // Import des données et des composants
 import './ProjectPageStyles.css'; // Import des styles
 import Navbar from '../../components/Navbar';
+import { Helmet } from 'react-helmet';
 
 const Project = () => {
   useEffect(() => {
@@ -10,6 +11,9 @@ const Project = () => {
   
   return (
     <div className="projectpage">
+      <Helmet>
+        <title>Projects | Portfolio</title>
+      </Helmet>
       <Navbar />
       <div className='projectpage-container'>
         <h2 className='projectpage-title'>My Projects</h2>

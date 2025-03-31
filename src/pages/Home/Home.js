@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import Navbar from '../../components/Navbar';
-import addLoadEvent from "../../components/func"
+import addLoadEvent from "../../components/func";
 import "./HomeStyles.css";
-import photoProfile from "../../images/photoProfile.jpg"
-import Skillbar from "../../components/Skillbar"
+import photoProfile from "../../images/photoProfile.jpg";
+import { Helmet } from 'react-helmet';
 import { ProjectCard, ProjectData } from '../../components/Project';
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
@@ -75,6 +75,9 @@ const Home = () => {
   
   return (
     <div className='complete-page'>
+      <Helmet>
+        <title>Home | Portfolio</title>
+      </Helmet>
       <div>
         <div className='pres'>
           <Navbar />
