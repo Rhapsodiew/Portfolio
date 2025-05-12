@@ -24,20 +24,6 @@ To run the portfolio locally:
  npm run start
 ```
 
-## 📁 Project Structure
-
-portfolio/
-├── assets/
-│   ├── images/           # Screenshots, profile picture, icons
-│   └── fonts/            # Optional custom fonts
-├── css/
-│   └── style.css         # Main stylesheet
-├── js/
-│   └── script.js         # JS for interactivity (e.g., mobile menu)
-├── index.html            # Homepage
-├── README.md
-└── .gitignore
-
 ## 🌐 Live Demo
 
 You can view the live version of the site here:
