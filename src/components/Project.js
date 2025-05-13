@@ -10,6 +10,7 @@ import clicker_game from "../images/project/clicker_game.png";
 import discordbot_rodolphe from "../images/project/discordbot_rodolphe.png";
 import snake from "../images/project/snake.png"
 import tetris from "../images/project/tetris.png"
+import composemonvote from "../images/project/compose_mon_vote.png"
 
 const Techno = {
     React: "React",
@@ -27,7 +28,8 @@ const Techno = {
     Mariadb: "MariaDB",
     Git: "Git",
     Arduino: "Arduino",
-    Unreal: "Unreal Engine"
+    Unreal: "Unreal Engine",
+    Docker: "Docker"
 }
 
 const ProjectData = [
@@ -127,6 +129,14 @@ const ProjectData = [
       description: "A simple Python version of the classic Tetris game where the player arranges falling blocks to complete lines and score points.",
       git: "https://github.com/Rhapsodiew/Tetris",
       techno: [Techno.Python]
+    },
+    {
+      id: 13,
+      title: "Compose Mon Vote",
+      img: composemonvote,
+      description: "A containerized web application designed to manage and visualize polls in real-time, using Docker and Docker Compose to enable communication between different services.",
+      git: "https://github.com/Rhapsodiew/ComposeMonVote",
+      techno: [Techno.Docker]
     }
 ];
 
