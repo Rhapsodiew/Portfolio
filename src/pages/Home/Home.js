@@ -12,6 +12,7 @@ import { FaGolang } from "react-icons/fa6";
 import { SiJavascript } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
+import { FaDocker } from "react-icons/fa6";
 import { SiNestjs } from "react-icons/si";
 import { RiNextjsFill } from "react-icons/ri";
 import { FaGitAlt } from "react-icons/fa6";
@@ -163,6 +164,11 @@ const Home = () => {
                       <FaGitAlt className='fav-logo'/>
                     </a>
                     <Tooltip id='git-logo' className='tooltip'/>
+
+                    <a data-tooltip-id='docker-logo' data-tooltip-content="Docker">
+                      <FaDocker className='fav-logo'/>
+                    </a>
+                    <Tooltip id='docker-logo' className='tooltip'/>
                   </div>
                 </div>
 
