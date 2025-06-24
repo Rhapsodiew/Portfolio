@@ -14,16 +14,6 @@ A clean, modern, and responsive portfolio website to showcase my skills, project
 - JavaScript (React)
 - Deployed on GitHub Pages
 
-## 🚀 Getting Started
-
-To run the portfolio locally:
-
- ```bash
- git clone https://github.com/your-username/portfolio.git
- cd portfolio
- npm run start
-```
-
 ## 🌐 Live Demo
 
 You can view the live version of the site here:
